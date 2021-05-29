@@ -1,0 +1,11 @@
+.git
+# Ignore Gradle project-specific cache directory
+backend/.gradle
+
+# Ignore Gradle build output directory
+backend/build
+frontend/node_modules
+**/.DS_Store
+frontend/dist
+frontend/dist-ssr
+frontend/*.local
