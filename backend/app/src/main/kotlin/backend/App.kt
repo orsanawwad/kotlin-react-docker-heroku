@@ -7,7 +7,7 @@ fun main(args: Array<String>) {
         config.addStaticFiles("/public")
     }.start(getHerokuAssignedPort())
 
-    app.get("/api/") { ctx -> ctx.result("Hello Heroku") }
+    app.get("/api/") { ctx -> ctx.result("HEY! YOU WANNA SMELL SOMETHING <a href="https://www.youtube.com/watch?v=Ng769Yj-LG8">SPACEY?!</a>") }
 }
 
 fun getHerokuAssignedPort(): Int {

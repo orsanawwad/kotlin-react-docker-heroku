@@ -1,5 +1,16 @@
 # Demo project
 
+### How to work with this project
+For frontend:
+- cd frontend
+- yarn dev
+
+For backend:
+- cd backend
+- ./gradlew run
+
+There is a way to make gradle hot reloadable, but "I'll leave that as an exercise"
+
 ### Steps to reproduce the build:
 - Install OpenJDK 11 or AdoptOpenJDK 11
 - Install Gradle
