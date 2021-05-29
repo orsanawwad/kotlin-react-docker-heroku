@@ -22,8 +22,6 @@ COPY backend/settings.gradle.kts ./
 
 COPY --from=frontend-stage /app/dist/. ./app/src/main/resources/public
 
-#RUN gradle clean fatJar --no-daemon --stacktrace
-
 RUN gradle clean fatJar
 
 FROM openjdk:11.0.11-9-jre-slim
